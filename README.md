@@ -1,19 +1,12 @@
-# vueproject
+Projeto vue utilizado para estudos
 
-## Project setup
+## Iniciar o projeto
 ```
-npm install
-```
+npm install (Para instalar as dependencias do node)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+npm run serve (iniciar o projeto)
 
-### Compiles and minifies for production
-```
-npm run build
+npm run backend (iniciar o backending do projeto)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+O projeto utiliza Vue/VueRouter/Vuetify/json-server
