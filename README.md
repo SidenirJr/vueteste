@@ -10,3 +10,5 @@ npm run backend (iniciar o backending do projeto)
 ```
 
 O projeto utiliza Vue/VueRouter/Vuetify/json-server
+
+Projeto baseado no curso de Vue do Matheus Battisti
