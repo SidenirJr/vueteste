@@ -5,7 +5,7 @@ import 'vuetify/styles'
 import router from './router'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
-import { aliases, mdi } from 'vuetify/iconsets/mdi'
+// import { aliases, mdi } from 'vuetify/iconsets/mdi'
 
 const vuetify = createVuetify({
   components,
@@ -13,13 +13,13 @@ const vuetify = createVuetify({
 })
 
 // export default createVuetify({
-//   icons: {
-//     defaultSet: 'mdi',
-//     aliases,
-//     sets: {
-//       mdi,
-//     },
-//   },
+  // icons: {
+  //   defaultSet: 'mdi',
+  //   aliases,
+  //   sets: {
+  //     mdi,
+  //   },
+  // },
 // })
 
 createApp(App).use(router).use(vuetify).mount('#app')

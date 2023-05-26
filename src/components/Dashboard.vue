@@ -6,7 +6,7 @@
         <th class="text-center">Nome</th>
         <th class="text-center">Carne</th>
         <th class="text-center">Pao</th>
-        <th class="text-center">Adicionais</th>
+        <th>Adicionais</th>
         <th class="text-center">Status</th>
         <th></th>
       </tr>
@@ -87,5 +87,9 @@ export default {
 <style>
   *, ::before, ::after {
     box-sizing: content-box;
+  }
+
+  td {
+    text-align: center;
   }
 </style>
