@@ -12,14 +12,14 @@ const vuetify = createVuetify({
   directives,
 })
 
-export default createVuetify({
-  icons: {
-    defaultSet: 'mdi',
-    aliases,
-    sets: {
-      mdi,
-    },
-  },
-})
+// export default createVuetify({
+//   icons: {
+//     defaultSet: 'mdi',
+//     aliases,
+//     sets: {
+//       mdi,
+//     },
+//   },
+// })
 
 createApp(App).use(router).use(vuetify).mount('#app')
